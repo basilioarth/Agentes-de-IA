@@ -70,5 +70,6 @@ const sendEmail = {
     }
 }
 
-const allFunctions = [getEvents, sendEmail];
-export { allFunctions };
+const allDefinitions = [getEvents, sendEmail];
+
+export { allDefinitions };
