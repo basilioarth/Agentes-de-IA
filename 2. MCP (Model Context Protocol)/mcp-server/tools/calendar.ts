@@ -94,7 +94,9 @@ const getEvents: Tool = {
                 type: "text",
                 text: JSON.stringify(events)
             }],
-            structuredContent: events
+            structuredContent: {
+                events: events
+            }
         }
     },
     declaration: {
